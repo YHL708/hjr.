@@ -1,0 +1,228 @@
+body {
+    background-image: linear-gradient(90deg,pink, #f5f5f5,pink);
+}
+.left,.banner{
+    float: left;
+}
+iframe{
+    position:fixed;
+
+}
+h1{
+    text-align: center;
+    color:hotpink;
+    font-family:STXingkai ;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color:hotpink;
+    font-family:STXingkai ;
+}
+.left {
+    width: 450px;
+    height: 100%;
+    margin: auto;
+}
+.banner{
+    width:450px;
+    height: 600px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+.picture{
+    width:4950px;
+    height: 550px;
+    list-style: none;
+}
+.picture>li,img{
+    width: 450px;
+    height: 600px;
+
+}
+.picture>li{
+    float: left;
+    position: relative;
+    animation:picture 35s ease 2s infinite alternate;
+    -webkit-animation:picture 35s ease 2s infinite alternate;
+}
+@keyframes picture{
+    0%{left:0}
+    10%{left:-490px}
+    20%{left:-940px}
+    30%{left:-1390px}
+    40%{left:-1840px}
+    50%{left:-2290px}
+    60%{left:-2740px}
+    70%{left:-3190px}
+    80%{left:-3640px}
+    90%{left:-4090px}
+    100%{left:-4540px}
+}
+.left1,.left2,.left3,.left4,.left5,.left6,.left7,.left8,.left9{
+    float: left;
+    margin-right:20px;
+    opacity: 0;
+}
+.left10,.left12,.left13,.left11,.left14{
+    float: left;
+    margin-right:20px;
+    opacity: 0;
+}
+.left1{
+    color: palevioletred;
+    animation: animate 5s  linear infinite;
+    -webkit-animation:animate 5s linear infinite;
+}
+.left2{
+    color: palevioletred;
+    animation: animate 5s  linear 1s infinite;
+    -webkit-animation:animate 5s linear 1s infinite;
+}
+.left3{
+    color: palevioletred;
+    animation: animate 5s  linear 2s infinite;
+    -webkit-animation:animate 5s linear 2s infinite;
+}
+.left4{
+    color: palevioletred;
+    animation: animate 5s  linear 3s infinite;
+    -webkit-animation:animate 5s linear 3s infinite;
+}
+.left5{
+    color: palevioletred;
+    animation: animate 5s  linear 4s infinite;
+    -webkit-animation:animate 5s linear 4s infinite;
+}
+.left6{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 5s infinite;
+}
+.left7{
+    color: palevioletred;
+    animation: animate 5s  linear  infinite;
+    -webkit-animation:animate 5s linear 0.6s infinite;
+}
+.left8{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 2s infinite;
+}
+.left9{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 1.2s infinite;
+}
+.left10{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 3s infinite;
+}
+.left11{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear infinite;
+}
+.left12{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 3.9s infinite;
+}
+.left13{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 1.5s infinite;
+}
+.left14{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 4.8s infinite;
+}
+.right1,.right2,.right3,.right4,.right5,.right6{
+    float: left;
+    margin-right:20px;
+    opacity: 0;
+}
+.right1{
+    color: palevioletred;
+    animation: animate 5s  linear infinite;
+    -webkit-animation:animate 5s linear infinite;
+}
+.right2{
+    color: palevioletred;
+    animation: animate 5s  linear 1s infinite;
+    -webkit-animation:animate 5s linear 1s infinite;
+}
+.right3{
+    color: palevioletred;
+    animation: animate 5s  linear 2s infinite;
+    -webkit-animation:animate 5s linear 2s infinite;
+}
+.right4{
+    color: palevioletred;
+    animation: animate 5s  linear 3s infinite;
+    -webkit-animation:animate 5s linear 3s infinite;
+}
+.right5{
+    color: palevioletred;
+    animation: animate 5s  linear 4s infinite;
+    -webkit-animation:animate 5s linear 4s infinite;
+}
+.right6 {
+    color: palevioletred;
+    animation: animate 5s linear 5s infinite;
+    -webkit-animation: animate 5s linear 5s infinite;
+}
+.right7{
+    color: palevioletred;
+    animation: animate 5s  linear  infinite;
+    -webkit-animation:animate 5s linear 0.6s infinite;
+}
+.right8{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 2s infinite;
+}
+.right9{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 1.2s infinite;
+}
+.right10{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 3s infinite;
+}
+.right11{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear infinite;
+}
+.right12{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 3.9s infinite;
+}
+.right13{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 1.5s infinite;
+}
+.right14{
+    color: palevioletred;
+    animation: animate 5s  linear 5s infinite;
+    -webkit-animation:animate 5s linear 4.8s infinite;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(-30vh);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(70vh);
+        opacity: 1;
+    }
+}
